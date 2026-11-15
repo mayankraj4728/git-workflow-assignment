@@ -1,7 +1,10 @@
 # Git & GitHub Workflow Demonstration & Test Case Design
 
 **Student Name:** Mayank Raj  
-**Email:** mayankraj4728@gmail.com  
+**Student ID:** 2024eb02531  
+**Student Email:** 2024eb02531@online.bits-pilani.ac.in  
+**GitHub Email:** mayankraj4728@gmail.com  
+**Institution:** BITS Pilani  
 **Repository:** [https://github.com/mayankraj4728/git-workflow-assignment](https://github.com/mayankraj4728/git-workflow-assignment)  
 
 ---

@@ -1,7 +1,11 @@
 ================================================================================
                     GIT COMMANDS REFERENCE & DOCUMENTATION
          Assignment: Git & GitHub Workflow Demonstration (10 Marks)
-         Student: Mayank Raj (Email: mayankraj4728@gmail.com)
+         Student Name   : Mayank Raj
+         Student ID     : 2024eb02531
+         Student Email  : 2024eb02531@online.bits-pilani.ac.in
+         GitHub Email   : mayankraj4728@gmail.com
+         GitHub Repo    : https://github.com/mayankraj4728/git-workflow-assignment
 ================================================================================
 
 1. git init -b main
