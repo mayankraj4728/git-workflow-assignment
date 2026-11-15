@@ -1,0 +1,84 @@
+================================================================================
+                    GIT COMMANDS REFERENCE & DOCUMENTATION
+         Assignment: Git & GitHub Workflow Demonstration (10 Marks)
+         Student: Mayank Raj (Email: mayankraj4728@gmail.com)
+================================================================================
+
+1. git init -b main
+   Initializes a new Git repository in the current directory and sets the default 
+   branch name to 'main'.
+
+2. git status
+   Displays the state of the working directory and staging area, showing tracked, 
+   untracked, and modified files.
+
+3. git add index.html about.html (git add <file>...)
+   Stages changes from the working directory into the Git index (staging area) 
+   in preparation for the next commit.
+
+4. git commit -m "Initial commit: Add index.html and about.html"
+   Records a snapshot of the staged changes to the repository history with a 
+   descriptive commit message.
+
+5. git diff index.html
+   Shows file-level line differences between the working tree and the staging 
+   area or latest commit.
+
+6. git branch feature
+   Creates a new branch named 'feature' pointing to the current commit without 
+   switching to it.
+
+7. git branch -v
+   Lists all local branches in the repository along with their latest commit hash 
+   and commit subject line.
+
+8. git switch feature (or git checkout feature)
+   Switches the active working environment (HEAD) to the specified branch ('feature').
+
+9. git switch main (or git checkout main)
+   Switches the active working environment (HEAD) back to the 'main' branch.
+
+10. git merge feature --no-ff -m "Merge branch 'feature' into main"
+    Merges the 'feature' branch into the current branch ('main'), using '--no-ff' 
+    to force creation of an explicit merge commit preserving branch history.
+
+11. git log --graph --oneline --all
+    Displays the commit history visually as an ASCII branch graph with one line 
+    per commit across all branches.
+
+12. git log -n 3 --stat
+    Shows the last 3 commits in detailed format, including author, date, message, 
+    and modified file statistics.
+
+13. git status --ignored
+    Lists both untracked files and files explicitly ignored by patterns defined 
+    in .gitignore.
+
+14. git reset HEAD~1
+    Undoes the most recent commit by moving HEAD back by one commit while keeping 
+    file changes in the working directory (mixed reset).
+
+15. git reset --soft HEAD~1
+    Alternative undo operation that rolls back the commit but leaves the modified 
+    files staged in the index ready for recommit.
+
+16. git revert <commit-hash>
+    Alternative undo operation that creates a new commit containing the inverse 
+    changes, safe for public shared repositories.
+
+17. git remote add origin https://github.com/mayankraj4728/git-workflow-assignment.git
+    Connects the local repository to a remote GitHub repository under the alias 'origin'.
+
+18. git remote -v
+    Lists all configured remote repository aliases and their corresponding fetch 
+    and push URLs.
+
+19. git push -u origin main
+    Pushes commits from the local 'main' branch to the remote 'origin' repository 
+    and sets up upstream branch tracking.
+
+20. git push origin feature
+    Pushes the local 'feature' branch to the remote repository so branch activity 
+    is visible on GitHub.
+
+================================================================================
